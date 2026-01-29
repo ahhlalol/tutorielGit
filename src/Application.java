@@ -17,7 +17,9 @@ public class Application extends Frame implements WindowListener{
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
-		this.setTitle("Mon app");
+
+		this.setTitle("c moche");
+
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
